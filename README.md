@@ -10,24 +10,7 @@ This project captures video from your webcam and renders it as live ASCII art in
 
 Here's a sample of what the output looks like:
 
-```
-FPS: 29.8
-........................................................................
-...................,,::;;;iiii*+*OOZZ00MM$$BB88XXWW%%##@@@@@@@@............
-............,::;;ii*+*OOZZ00MM$$BB88XXWW%%##@@..@@##%%WWXX88BB$$MM00........
-........,;ii*+*OOZZ00MM$$BB88XXWW%%##@@..,,..@@##%%WWXX88BB$$MM00ZZOO*+......
-....,;i*+*OOZZ00MM$$BB88XXWW%%##@@'    .'@@##%%WWXX88BB$$MM00ZZOO*+*i;:,....
-..:;i*+*OOZZ00MM$$BB88XXWW%%##@@..      ..@@##%%WWXX88BB$$MM00ZZOO*+*i;:,...
-,;i*+*OOZZ00MM$$BB88XXWW%%##@@..          ..@@##%%WWXX88BB$$MM00ZZOO*+*i;:,..
-i*+*OOZZ00MM$$BB88XXWW%%##@@..              ..@@##%%WWXX88BB$$MM00ZZOO*+*i;,.
-+*OOZZ00MM$$BB88XXWW%%##@@,....................,@@##%%WWXX88BB$$MM00ZZOO*+*i
-OOZZ00MM$$BB88XXWW%%##@@'........................'@@##%%WWXX88BB$$MM00ZZOO*+
-ZZ00MM$$BB88XXWW%%##@@'............................'@@##%%WWXX88BB$$MM00ZZOO
-00MM$$BB88XXWW%%##@@'................................'@@##%%WWXX88BB$$MM00ZZ
-MM$$BB88XXWW%%##@@'....................................'@@##%%WWXX88BB$$MM00
-$$BB88XXWW%%##@@'........................................'@@##%%WWXX88BB$$MM
-BB88XXWW%%##@@'............................................'@@##%%WWXX88BB$$
-```
+<img width="1680" height="1050" alt="Screenshot 2025-08-30 at 09 18 55" src="https://github.com/user-attachments/assets/73b073ff-6d81-4709-9037-50d52fdd5c81" />
 
 ## About The Project
 
@@ -46,21 +29,15 @@ Before you begin, ensure you have the following installed:
 *   Rust and Cargo
 *   A connected webcam
 
-**Note for Linux users:** You may need to install development packages for `video4linux`. For Debian-based distributions (like Ubuntu), you can install it with:
-```sh
-sudo apt-get install libv4l-dev
-```
-
 ## Getting Started
 
 To get a local copy up and running, follow these simple steps.
 
 1.  **Clone the repository**
     ```sh
-    git clone https://github.com/your_username/cam_ascii.git
+    git clone https://github.com/thecoder-co/ascii-cam.git
     cd cam_ascii
     ```
-    *(Replace `your_username` with your GitHub username and `cam_ascii` with your repository name)*
 
 2.  **Run the application**
     For the best performance, run the application in release mode:
@@ -111,4 +88,3 @@ Copyright (c) 2025 ABIMBOLA, Idunnuoluwa
 This project is made possible by the fantastic work of the Rust community and these key libraries:
 *   nokhwa for camera controls.
 *   image-rs for image processing.
-*   crossterm for terminal manipulation.
